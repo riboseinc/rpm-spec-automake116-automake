@@ -1,0 +1,15 @@
+= Ribose RPM Spec for automake116
+
+image:https://img.shields.io/travis/riboseinc/rpm-spec-automake116-automake/master.svg[Build Status (Travis CI), link=https://travis-ci.org/riboseinc/rpm-spec-automake116]
+
+== Introduction
+
+This repository hosts the RPM spec & related Docker files for building the RPM
+package.
+
+It uses code from https://github.com/riboseinc/rpm-specs[`rpm-specs`].
+
+== Usage
+
+See https://github.com/riboseinc/rpm-spec-automake116.
+
