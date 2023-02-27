@@ -12,8 +12,8 @@
 
 Summary:    A GNU tool for automatically creating Makefiles
 Name:       %{scl_prefix}automake
-Version:    %{api_version}.1
-Release:    2%{?dist}
+Version:    %{api_version}.5
+Release:    1%{?dist}
 
 # docs ~> GFDL, sources ~> GPLv2+, mkinstalldirs ~> PD and install-sh ~> MIT
 License:    GPLv2+ and GFDL and Public Domain and MIT
@@ -87,6 +87,9 @@ fi
 %{_mandir}/man1/*
 
 %changelog
+* Mon Feb 27 2023 Jeffrey Lau <jeffrey.lau@ribose.com> - 1.16.5-1
+- Bump to version 1.16.5 (https://github.com/riboseinc/rpm-spec-automake116-automake/issues/2)
+
 * Thu Jul 14 2022 Jeffrey Lau <jeffrey.lau@ribose.com> - 1.16.1-2
 - Re-sign package (https://github.com/riboseinc/yum/issues/9)
 
